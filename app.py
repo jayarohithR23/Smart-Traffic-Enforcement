@@ -25,7 +25,7 @@ app.config["SECRET_KEY"] = "Hi@123"
 app.config["MONGO_URI"] = "mongodb+srv://kirantummala36:Kiran6104@cluster0.gxehi.mongodb.net/Helmet?retryWrites=true&w=majority&appName=Cluster0"
 app.config["JWT_SECRET_KEY"] = "Hi@123"
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(days=1)
-GOOGLE_API_KEY = 'AIzaSyDujtQ4n9tSUiZHfcZZsGURz2qJSsvuyts'
+GOOGLE_API_KEY = 'MY-API-KEY'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-1.5-flash')
